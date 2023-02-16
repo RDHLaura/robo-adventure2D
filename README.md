@@ -21,8 +21,8 @@ Del fichero del entorno del juego se han exportado por separado un fichero png c
 
 
 ### Ficheros de audio:
-Se han descargado sonidos para el juego en formato .wav que se han convertido posteriormente a formato mp3 para optimizar su uso en web. 
-La canción con música de fondo se ha descargado en formato .ogg y se ha optimizao a formato .aac
+Se han descargado sonidos para el juego en formato .wav que se han convertido posteriormente a formato mp3 para optimizar su uso en web mediante la compresión del archivo. 
+La canción con música de fondo se ha descargado en formato .ogg y se ha optimizao mediante un formato de compresión como .aac
 
 Para la conversión de audios se han elegido las siguientes herramientas online:
 - https://convertio.co/es/mp4-webm/ 
