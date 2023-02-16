@@ -1,6 +1,6 @@
 Asignatura DIW
 
-# robo-adventure2D
+# Robo-adventure2D
 Proyecto Arte 2D
 
 ## Contenido:
