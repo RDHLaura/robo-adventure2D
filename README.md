@@ -3,7 +3,7 @@ Asignatura DIW
 # robo-adventure2D
 
 
-##Contenido:
+## Contenido:
 
 ### Ficheros originales
 - Fichero del entorno del juego en formato .afphoto.
