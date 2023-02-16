@@ -18,6 +18,7 @@ El fichero del personaje se ha exportado en .svg para poder facilitar su uso des
 ### Ficheros PNG
 Se han exportado los ficheros del personaje y del fondo en png para facilitar su uso en web. 
 Del fichero del entorno del juego se han exportado por separado un fichero png con el fondo de este y otro con las plataformas para animaciones o cualquier trabajo que se quiera realizar con ellos.
+Se ha elegido formato png frente al jpg ya que en este caso se ha priorizado la calidad, puesto que estas imágenes se utilizaran en web para vender un juego y por tanto se pretende que la imagen se vea lo mejor posible sin sacrificar demasiado el rendimiento.
 
 
 ### Ficheros de audio:
@@ -34,7 +35,7 @@ El formato original del video es en mp4 que posteriormente se ha optimizado a fo
 
 ### Créditos
 #### Fondo:
-https://maaot.itch.io/mossy-cavern (licencia de libre uso)
+- https://maaot.itch.io/mossy-cavern ( LICENSE: V0.1) - This asset pack can be used in free and commercial projects. You can modify the assets as you need. Credit is not necessary, but always appreciated.  You may not repackage, redistribute or resell the assets, no matter how much they are modified.
 
 #### Audios:
 - https://freesound.org/people/jeremysykes/sounds/344500/   (CC0 1.0 Universal (CC0 1.0) Public Domain Dedication)
