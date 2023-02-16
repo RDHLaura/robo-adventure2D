@@ -18,7 +18,7 @@ El fichero del personaje se ha exportado en .svg para poder facilitar su uso des
 ### Ficheros PNG
 Se han exportado los ficheros del personaje y del fondo en png para facilitar su uso en web. 
 Del fichero del entorno del juego se han exportado por separado un fichero png con el fondo de este y otro con las plataformas para animaciones o cualquier trabajo que se quiera realizar con ellos.
-Se ha elegido formato png frente al jpg ya que en este caso se ha priorizado la calidad, puesto que estas imágenes se utilizaran en web para vender un juego y por tanto se pretende que la imagen se vea lo mejor posible sin sacrificar demasiado el rendimiento.
+Se ha elegido formato png frente al jpg ya que en este caso se ha priorizado la calidad, puesto que estas imágenes se utilizaran en web para vender un juego y por tanto se pretende que la imagen se vea lo mejor posible sin sacrificar demasiado el rendimiento, para ello se han añadido varios tamaños de imagen para cargar uno u otro según las necesidades.
 
 
 ### Ficheros de audio:
