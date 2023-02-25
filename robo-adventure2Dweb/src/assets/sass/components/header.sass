@@ -1,0 +1,24 @@
+.header
+  height: 25vh
+  width: 100vw
+  position: relative
+  background-color: black
+  overflow: hidden
+  .video
+    width: 100vw
+    position: absolute
+    top: -100%
+    @media(max-width: 850px)
+      top: 0
+    @media(max-width: 500px)
+      top: 0
+      height: 25vh
+.logo
+  height: 12rem
+  position: absolute
+  top: calc(25vh - 5rem)
+  right: calc(50% - 7rem)
+  @media(max-width: 500px)
+    height: 8rem
+    right: calc(50% - 5rem)
+    top: calc(25vh - 4rem)
