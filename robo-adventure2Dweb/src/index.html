@@ -3,39 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&family=Exo+2:wght@100;300;400;700" rel="stylesheet">
     <title>Vite App</title>
+    <script src="https://kit.fontawesome.com/618a6651ef.js" crossorigin="anonymous"></script>
     <script defer type="module" src="assets/js/main.js"></script>
   </head>
-  <body>
+
+  <body class="theme">
     <header class="header">
       <div class="container-video">
         <video class="video" src="assets/media/video/cave.webm" autoplay muted loop></video>
       </div>
-
     </header>
     <img class="logo" src="assets/media/images/logo-web.svg" />
+
     <main class="main">
-      <h1>Adentrate en la oscuridad</h1>
-      <section class="carrusel-mapa">
-        <div class="image">
-          <img  src="assets/media/images/fondoCompletoDiseño.png">
-        </div>
-        <div class="txt-lore">
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-          </p>
-        </div>
-      </section>
+      <h1 class="h1">Adentrate en la oscuridad</h1>
 
-      <section class="acordeon-personajes">
-        <button id="button-personajes" type="button">Personajes</button>
-        <div id="personajes" class="tabs-personajes">
-          <button id="button-protagonista">Protagonista</button>
-          <div id="protagonista"></div>
-          <button id="button-villano">Protagonista</button>
-          <div id="villano"></div>
-
+      <!--carrusel para mostrar los mapas del juego y la información de historia en cada mapa-->
+      <article class="carrusel">
+        <main class="container-carrusel" style="transform: translateX(0%)">
+          <section class="carrusel-element">
+            <div class="image">
+              <img  src="assets/media/images/Fondo_Medium.png">
+            </div>
+            <div class="txt-lore">
+              <h2 class="h2">Enfréntate a las profundidades de una cueva olvidada.</h2>
+              <p class="txt">
+                En el desierto existe una ciudad llamada Roboland, ahora devastada por el Tenebroso,
+                quien, después de provocar una lluvia que acabase con todos los robots de la ciudad,
+                se escondió en la profunda cueva.
+              </p>
+              <p class="txt">
+                Solo Robo ha sobrevivido gracias a su paragüas, ¿será capaz de destruir a Aquamagic y así acabar
+                con la lluvia que está destruyendo tu mundo?
+              </p>
+            </div>
+          </section>
+          <section class="carrusel-element">
+            <div class="txt-lore">
+              <h2 class="h2">Usa tus habilidades y reflejos para sobrevivir.</h2>
+              <p class="txt">
+                ROBO Adventure es una desafiante aventura de acción en 2D.
+              </p>
+              <p class="txt">
+                Explorarás cavernas retorcidas, lucharás contra criaturas contaminadas y escaparás de intrincadas trampas,
+                todo para acabar con el Tenebroso antes de que sea demasiado tarde.
+              </p>
+            </div>
+            <div class="image">
+              <img  src="assets/media/images/fondoCompletoDiseño.png">
+            </div>
+          </section>
+          <section class="carrusel-element">
+            <div class="image">
+              <img  src="assets/media/images/escena_sin_boss_original-optimizado.png">
+            </div>
+            <div class="txt-lore">
+              <h2 class="h2">Descubre el increíble mundo de ROBO Adventure.</h2>
+              <p class="txt">
+                Cada nueva área que descubrirás es maravillosamente única y extraña, repleta de nuevas criaturas y personajes por descubrir.
+                Vale la pena explorar el mundo de ROBO Adventure solo para disfrutar de las vistas.
+              </p>
+            </div>
+          </section>
+        </main>
+        <div class="botones-carrusel">
+          <button class="previous h2"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+          <button class="next h2"><i class="fa-sharp fa-solid fa-arrow-right"></i></i></button>
         </div>
+      </article>
+
+      <!--acordeón para mostrar los personajes-->
+      <section id="acordeon-personajes" class="acordeon-personajes">
+        <button class="button h2" id="acordeon_personajes" type="button">Descubre los personajes</button>
+
+        <!--tabs para mostrar información de los personajes-->
+        <main  class="content-personajes">
+          <div class="container-buttons">
+            <button class="buttonpj" type="button" id="button-protagonista">Protagonista</button>
+            <button class="buttonpj" type="button" id="button-villano">Villano</button>
+          </div>
+          <div class="contenedor-personajes">
+            <div class="bloque">
+              <div class="img">
+                <img src="assets/media/images/protagonista.svg">
+              </div>
+              <div class="txt-lore container_info">
+                <h2 class="h2 titulo_pj">Robo</h2>
+                <p class="txt">
+                  Este es el personaje principal del juego
+                </p>
+              </div>
+            </div>
+            <div class="bloque">
+              <div class="img">
+                <img src="assets/media/images/villano_juego.svg">
+              </div>
+              <div class="txt-lore container_info">
+                <h2 class="h2 titulo_pj">Aquamagic</h2>
+                <p class="txt">
+                  Este es el villano principal del juego
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
       </section>
     </main>
   </body>

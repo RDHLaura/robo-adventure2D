@@ -1,6 +1,25 @@
-body
-  height: 100vh
-  width: 100vw
-  background-color: black
-  color: whitesmoke
 
+$claro            : #d9eee6
+$principal_claro  : #52A068
+$principal_oscuro : #132820
+$oscuro           : black
+
+$letra_principal :'Exo 2', sans-serif
+$letra_titulo    : 'Rajdhani', sans-serif
+
+//tema principal
+.theme
+  --color_letras:                   #{$claro}
+  --background_principal:           #{$oscuro}
+  --letra_boton:                    #{$oscuro}
+  --color_background_boton:         #{$principal_claro}
+  --color_background_boton_hover:   #{$principal_oscuro}
+  --color_letra_boton_hover:        #{$claro}
+  //tema claro
+  &--light
+    --color_letras:                   #{$oscuro}
+    --background_principal:           #{$claro}
+    --letra_boton:                    #{$claro}
+    --color_background_boton:         #{$principal_oscuro}
+    --color_background_boton_hover:   #{$principal_claro}
+    --color_letra_boton_hover:        #{$oscuro}

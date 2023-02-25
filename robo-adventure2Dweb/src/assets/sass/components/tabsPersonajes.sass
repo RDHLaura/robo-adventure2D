@@ -1,0 +1,61 @@
+
+.container-buttons
+  width: 100%
+  display: flex
+  flex-flow: row nowrap
+  justify-content: space-around
+  border-bottom: 0.5px solid var(--color_background_boton_hover)
+  .buttonpj
+    transition: all .5s ease
+    font-size: 1.5rem
+    padding: .7em 1em
+    margin: 1em
+    border-bottom: 1px solid var(--color_background_boton)
+    transition: all 1.5s ease
+  .activopj
+    background-color: var(--color_background_boton)
+    color: var(--letra_boton)
+    border-radius: 5px
+
+.contenedor-personajes
+  position: relative
+  min-height: 70vh
+  border-radius: 25px
+  margin: 2em
+  width: 70%
+  @media(max-width: 1000px)
+    min-height: 80vh
+  .bloque
+    //coloco el bloque en posición absoluta para que todos estén en el mismo espacio
+    width: 100%
+    position: absolute
+    top: 0
+    //le doy opacidad 0 para que ninguno se vea si no está activo
+    opacity: 0
+    transition: all .5s ease
+    display: flex
+    flex-flow: row nowrap
+    justify-content: center
+    margin: 1rem
+    padding: 3rem
+    border: 1px solid var(--color_background_boton_hover)
+    transition: width 2s, height 2s
+    @media(max-width: 1000px)
+      flex-flow: column nowrap
+    .img
+      width: 50%
+      @media(max-width: 1000px)
+        height: 100%
+        width: 100%
+    .container_info
+      width: 50%
+      align-self: center
+      text-align: center
+      @media(max-width: 1000px)
+        width: 100%
+      .titulo_pj
+        width: 100%
+
+  .activobloque
+    opacity: 1
+
