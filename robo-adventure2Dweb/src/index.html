@@ -16,7 +16,12 @@
   <body class="theme">
     <header class="header">
       <div class="container-video">
-        <video class="video" src="assets/media/video/cave.webm" autoplay muted loop></video>
+        <video class="video"  autoplay muted loop>
+          <source src="assets/media/video/cave.mp4"/>
+          <source src="assets/media/video/cave.webm"/>
+          <source src="assets/media/video/cave.ogv"/>
+          <img src="assets/media/images/imgVideo.png" alt="Video no soportado" />
+        </video>
       </div>
     </header>
     <img class="logo" src="assets/media/images/logo-web.svg" />
@@ -75,6 +80,14 @@
         <div class="botones-carrusel">
           <button class="previous h2"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
           <button class="next h2"><i class="fa-sharp fa-solid fa-arrow-right"></i></i></button>
+          <audio id="up">
+            <source src="assets/media/audio/344500__jeremysykes__jump05.ogg" />
+            <source src="assets/media/audio/344500__jeremysykes__jump05.mp3" />
+          </audio>
+          <audio id="down">
+            <source src="assets/media/audio/417486__mentoslat__8-bit-death-sound.ogg" />
+            <source src="assets/media/audio/417486__mentoslat__8-bit-death-sound.mp3" />
+          </audio>
         </div>
       </article>
 
@@ -84,8 +97,8 @@
         <!--tabs para mostrar información de los personajes-->
         <main  class="content-personajes">
           <div class="container-buttons">
-            <button class="buttonpj" type="button" id="button-protagonista">Protagonista</button>
-            <button class="buttonpj" type="button" id="button-villano">Villano</button>
+            <button class="buttonpj" type="button" id="button-protagonista">Robo</button>
+            <button class="buttonpj" type="button" id="button-villano">AquaMagic</button>
           </div>
           <div class="contenedor-personajes">
             <div class="bloque">

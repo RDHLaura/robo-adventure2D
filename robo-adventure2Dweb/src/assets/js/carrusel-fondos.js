@@ -1,7 +1,6 @@
 
 //carrusel fondos del juego
 const container = document.querySelector('.container-carrusel');
-const video     = document.querySelector('.video');
 const previous  = document.querySelector('.previous');
 const next      = document.querySelector('.next');
 
@@ -16,8 +15,9 @@ previous.addEventListener('click', ()=>{
     container.style.transform = `translateX(0%)`;
   else if(translate == 'translateX(-66.666%)') {
     container.style.transform = `translateX(-33.333%)`;
-    video.src = "assets/media/video/cave.webm"
   }
+  let audio = document.getElementById("down");
+  audio.play();
 })
 next.addEventListener('click', ()=>{
   let translate = container.style.transform;
@@ -27,4 +27,7 @@ next.addEventListener('click', ()=>{
     container.style.transform = `translateX(-66.666%)`;
   else if(translate == 'translateX(-66.666%)')
     return false;
+
+  let audio = document.getElementById("up");
+  audio.play();
 })
