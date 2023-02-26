@@ -8,12 +8,13 @@
     display: flex
     flex-flow: row nowrap
     align-items: center
+    transition: all .7s ease
     .carrusel-element
       display: flex
       flex-direction: row
       width: calc(100%/3)
       margin-top: 1em
-      @media(max-width: 1000px)
+      @media(max-width: 1200px)
         width: 90vw
         flex-direction: column
       .image
@@ -22,9 +23,10 @@
         flex-wrap: wrap
         align-content: center
         justify-content: center
-        @media(max-width: 1000px)
+        @media(max-width: 1200px)
           width: 100%
           margin-bottom: 2rem
+          align-items: start
         img
           width: 90%
       .txt-lore
@@ -34,7 +36,7 @@
         text-align: justify-all
         width: 50%
         padding: 0 6rem
-        @media(max-width: 1000px)
+        @media(max-width: 1200px)
           width: 100%
           padding: 0 3rem
   .botones-carrusel
