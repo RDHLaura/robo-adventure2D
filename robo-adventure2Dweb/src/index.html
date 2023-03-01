@@ -34,12 +34,17 @@
         <main class="container-carrusel" style="transform: translateX(0%)">
           <section class="carrusel-element">
             <div class="image">
-              <img  src="assets/media/images/Fondo_Medium.png">
+              <picture>
+                <source media="(max-width: 500px)" srcset="assets/media/images/fondo1_360.png">
+                <source media="(max-width: 799px)" srcset="assets/media/images/fondo1_720.png 720w">
+                <source media="(min-width: 800px)" srcset="assets/media/images/fondo1_1024.png 1024w">
+                <img src="assets/media/images/fondo1_1024.png 1024w" alt="Primer escenario del juego.">
+              </picture>
             </div>
             <div class="txt-lore">
               <h2 class="h2">Enfréntate a las profundidades de una cueva olvidada.</h2>
               <p class="txt">
-                El desértico publo Roboland, ha sido devastado por el Tenebroso,
+                El desértico publo Roboland, ha sido devastado por el Aquamagic,
                 quien, después de provocar una lluvia que acabase con todos los robots que lo habitaban,
                 se escondió en una profunda cueva.
               </p>
@@ -51,7 +56,12 @@
           </section>
           <section class="carrusel-element">
             <div class="image">
-              <img  src="assets/media/images/fondoCompletoDiseño.png">
+              <picture>
+                <source media="(max-width: 500px)" srcset="assets/media/images/fondo2_360.png">
+                <source media="(max-width: 799px)" srcset="assets/media/images/fondo2_720.png 720w">
+                <source media="(min-width: 800px)" srcset="assets/media/images/fondo2_1024.png 1024w">
+                <img src="assets/media/images/fondo2_1024.png 1024w" alt="Segundo escenario del juego.">
+              </picture>
             </div>
             <div class="txt-lore">
               <h2 class="h2">Usa tus habilidades y reflejos para sobrevivir.</h2>
@@ -66,7 +76,12 @@
           </section>
           <section class="carrusel-element">
             <div class="image">
-              <img  src="assets/media/images/escena_sin_boss_original-optimizado.png">
+              <picture>
+                <source media="(max-width: 500px)" srcset="assets/media/images/fondo3_360.png">
+                <source media="(max-width: 799px)" srcset="assets/media/images/fondo3_720.png 720w">
+                <source media="(min-width: 800px)" srcset="assets/media/images/fondo3_1024.png 1024w">
+                <img src="assets/media/images/fondo3_1024.png 1024w" alt="Tercer escenario del juego.">
+              </picture>
             </div>
             <div class="txt-lore">
               <h2 class="h2">Descubre el increíble mundo de ROBO Adventure.</h2>
@@ -93,12 +108,14 @@
 
       <!--acordeón para mostrar los personajes-->
       <section id="acordeon-personajes" class="acordeon-personajes">
-        <button class="button h2" id="acordeon_personajes" type="button">Descubre los personajes</button>
+        <button class="button h2" id="acordeon_personajes" type="button">Descubre los personajes <i class="fa-solid fa-angle-down" ></i></button>
         <!--tabs para mostrar información de los personajes-->
         <main  class="content-personajes">
           <div class="container-buttons">
-            <button class="buttonpj" type="button" id="button-protagonista">Robo</button>
-            <button class="buttonpj" type="button" id="button-villano">AquaMagic</button>
+            <button class="buttonpj" type="button" id="button-protagonista">Héroe
+              <i class="fa-solid fa-angle-down "></i></button>
+            <button class="buttonpj" type="button" id="button-villano">Villano
+              <i class="fa-solid fa-angle-down"></i></button>
           </div>
           <div class="contenedor-personajes">
             <div class="bloque">
