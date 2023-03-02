@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d56d35f1-2cab-4859-ae1b-13683212615e" name="Changes" comment="modificaciones del diseño">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="web" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ME4azkNewPL8vpP7NSyXQ4Gn5G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;18.12.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;18.14.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/laura/Documentos/DIW/robo-adventure2D/robo-adventure2Dweb/src/assets/media/audio&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.emmet.xml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/media/audio" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/media/video" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/media/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/media/video" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/media/images" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb" />
+      <recent name="$PROJECT_DIR$/robo-adventure2Dweb/src/assets/sass" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d56d35f1-2cab-4859-ae1b-13683212615e" name="Changes" comment="" />
+      <created>1677319474688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677319474688</updated>
+      <workItem from="1677319475923" duration="42741000" />
+      <workItem from="1677422637880" duration="3009000" />
+      <workItem from="1677519444598" duration="4278000" />
+      <workItem from="1677680915526" duration="9372000" />
+      <workItem from="1677752556082" duration="731000" />
+      <workItem from="1677789907914" duration="135000" />
+      <workItem from="1677790051561" duration="349000" />
+    </task>
+    <task id="LOCAL-00001" summary="nueva rama">
+      <created>1677320163902</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677320163902</updated>
+    </task>
+    <task id="LOCAL-00002" summary="primer commit de la web">
+      <created>1677340331712</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677340331712</updated>
+    </task>
+    <task id="LOCAL-00003" summary="actualización grande">
+      <created>1677368044409</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677368044409</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cambios en el texto de la historia">
+      <created>1677369834333</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677369834333</updated>
+    </task>
+    <task id="LOCAL-00005" summary="incluido audio y videos alternativos">
+      <created>1677425045059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677425045059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="cambio en imagenes y modificaciones del diseño">
+      <created>1677684028654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677684028654</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modificaciones del diseño">
+      <created>1677685378379</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677685378379</updated>
+    </task>
+    <task id="LOCAL-00008" summary="modificaciones del diseño">
+      <created>1677687916394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677687916394</updated>
+    </task>
+    <task id="LOCAL-00009" summary="modificaciones del diseño">
+      <created>1677690280836</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677690280836</updated>
+    </task>
+    <task id="LOCAL-00010" summary="modificaciones del diseño">
+      <created>1677690515840</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1677690515840</updated>
+    </task>
+    <task id="LOCAL-00011" summary="modificaciones del diseño">
+      <created>1677691550169</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677691550169</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="nueva rama" />
+    <MESSAGE value="primer commit de la web" />
+    <MESSAGE value="actualización grande" />
+    <MESSAGE value="cambios en el texto de la historia" />
+    <MESSAGE value="incluido audio y videos alternativos" />
+    <MESSAGE value="cambio en imagenes y modificaciones del diseño" />
+    <MESSAGE value="modificaciones del diseño" />
+    <option name="LAST_COMMIT_MESSAGE" value="modificaciones del diseño" />
+  </component>
+</project>
